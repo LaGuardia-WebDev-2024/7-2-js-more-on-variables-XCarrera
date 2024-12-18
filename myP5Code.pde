@@ -7,6 +7,7 @@ void setup() {
 var x = 200;
 var y = 100;
 
+
 //🟢Draw Procedure - Runs on Repeat
 void draw(){
   background(255,255,255,200);
@@ -24,7 +25,18 @@ void draw(){
   ellipse(x - 50, y - 50, 30, 30); // left eyeball
   ellipse(x + 50, y - 50, 30, 30); // right eyeball
   
+  fill(24, 38, 7);
+ ellipse(x + 2, y + 5, 195, 30); //mouth
+ 
+ fill(99, 13, 24);///left eye
+ rect(x-49, y-62, 5, 20);
 
+fill(99, 13, 24);///right eye
+ rect(x+52, y-62, 5, 20);
+ 
+ 
+fill(230, 126, 159);///tounge
+ rect(x+2, y+3, 35, 70);
 }
 
 
